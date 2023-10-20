@@ -1,7 +1,73 @@
-/* Reset CSS */
-
+/* Base Style */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Colors */
+.colors header {
+    background-color: #aed8e5;
+    height: 520px;
+}
+
+.colors .box__container {
+    background-color: #04008b;
+    height: 520px;
+}
+
+.colors .box-uno {
+    background-color: #ee82ed;
+    height: 415px;
+    width: 945px;
+    border: 2px dashed black;
+}
+
+.logo,
+.menu__items {
+    background-color: #d9a520;
+    border: 2px dashed;
+}
+
+/* Header */
+.menu__container {
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+#cta {
+    all: unset;
+    background-color: #d9a520;
+    border: 2px dashed black;
+    cursor: pointer;
+    text-align: end;
+    padding: 10px 20px;
+}
+
+.logo,
+#cta {
+    flex-grow: 1;
+}
+
+.menu__items {
+    flex-grow: 3;
+    text-align: center;
+}
+
+.container {
+    padding: 20px 0 0;
+}
+
+.menu__items,
+.logo {
+    padding: 10px 20px;
+}
+
+.box__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
